@@ -1,0 +1,28 @@
+.item {
+  width: 250px;
+  display: inline-block;
+}
+
+.grey {
+  background-color: #eee;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+
+  &.footer {
+    align-items: center;
+
+    .mat-button-base {
+      margin-top: 0;
+    }
+  }
+
+  .mat-button-base {
+    height: 50px;
+    margin-top: .25em;
+  }
+}
